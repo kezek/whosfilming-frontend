@@ -11,7 +11,7 @@
  * # AboutCtrl
  * Controller of the whosfilmingFrontendApp
  */
-angular.module('whosfilmingFrontendApp', [])
-    .controller('DashboardCtrl', ["$scope", function($scope) {
-        $scope.message = "Yoyoyo bro";
-    }]);
+angular.module('whosfilmingFrontendApp')
+    .controller('DashboardCtrl', function($scope) {
+
+    });
