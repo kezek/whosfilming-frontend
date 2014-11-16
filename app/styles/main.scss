@@ -3,6 +3,11 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+.img {
+  vertical-align: text-top;
+  dispaly: block;
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -30,6 +35,7 @@ body {
 
   /* Make the masthead heading the same height as the navigation */
   h3 {
+    text-align: center;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 40px;
