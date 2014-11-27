@@ -8,6 +8,6 @@
  * Controller of the whosfilmingFrontendApp
  */
 angular.module('whosfilmingFrontendApp')
-  .controller('MainCtrl', function ($scope) {
-
+  .controller('MainCtrl', function ($scope, dataFactory) {
+        $scope.test = "ASDASADDADS";
   });
