@@ -20,3 +20,14 @@
 
 To start your project , go to your project's folder and run ```grunt serve```
 
+
+#### Updating fork
+
+1. Link your repository to upstream : ```git remote add upstream https://github.com/kezek/whosfilming-frontend.git```
+
+2. Grab changes from upstream :```git fetch upstream```
+
+3. Rebase your master : ```git rebase upstream/master```
+
+4. Push changes : ```git push origin master```
+
